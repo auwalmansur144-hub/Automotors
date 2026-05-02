@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gallery — Autors</title>
+<meta name="description" content="Photos of our showroom and cars at AutoMotors, Kano.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">Auto<span>Motors</span></a>
+    <button class="menu-btn" aria-label="Menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="inventory.html">Inventory</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="visit.html">Visit</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="container">
+    <div class="eyebrow">Gallery</div>
+    <h1 class="display">A look <em>around the lot</em>.</h1>
+    <p>Click any photo to view it full-size.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <div class="gallery">
+      <div class="item wide"><img src="images/hero-car.jpg" alt="Featured car"></div>
+      <div class="item tall"><img src="images/car-3.jpg" alt="Toyota Land Cruiser"></div>
+      <div class="item"><img src="images/car-1.jpg" alt="Toyota Camry"></div>
+      <div class="item"><img src="images/car-2.jpg" alt="Lexus RX"></div>
+      <div class="item"><img src="images/car-4.jpg" alt="Honda Accord"></div>
+      <div class="item wide"><img src="images/car-5.jpg" alt="Mercedes GLE"></div>
+      <div class="item"><img src="images/car-6.jpg" alt="Ford Ranger"></div>
+    </div>
+  </div>
+</section>
+
+<div id="lightbox" class="lightbox" role="dialog" aria-label="Image preview">
+  <button class="close" aria-label="Close">×</button>
+  <img src="" alt="">
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <div class="brand" style="color:var(--primary-fg)">Auto<span>Motors</span></div>
+    <small>© <span data-year></span> AutoMotors · Kano, Nigeria</small>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>
